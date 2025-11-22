@@ -4,7 +4,7 @@ An integrated, user-friendly suite forreduction, analysis, and visualization of 
 
 The idea is to get a maximum of information through various plots (Guinier, Nomalized Kratky, Volume of Corelation) at a glance.
 
-For documentation proposed all plots are automatically save as image and txt files in dedicated folder. This (at least for me) help to keep an insightful trace of the analysis.
+For documentation proposed all plots are automatically save as image and txt files in dedicated folder. This (at least for me) helps to keep an insightful trace of the analysis.
 
 📖 Overview
 
