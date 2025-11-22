@@ -1,13 +1,16 @@
-SAXSier Suite v4.x
+##SAXSier Suite
 
 An integrated, user-friendly suite forreduction, analysis, and visualization of SAXS and SEC-SAXS data.
-The idea is to get a maximum of information at a glance.
+
+The idea is to get a maximum of information through various plots (Guinier, Nomalized Kratky, Volume of Corelation) at a #glance.
+
+For documentation proposed all plots are automatically save as image and txt files in dedicated folder. This (at least for me) help to keep an insightful trace of the analysis.
 
 📖 Overview
 
-SAXSier is a unified software toolkit designed to streamline the Small-Angle X-ray Scattering (SAXS) analysis pipeline. It facilitates precise buffer subtraction, automated Guinier assessment, molecular weight estimation, and Pair-Distance Distribution $P(r)$ calculations, bridging the gap between raw beamline data and biophysical interpretation.
+SAXSier is a software toolkit designed to streamline the Small-Angle X-ray Scattering (SAXS) analysis pipeline. It facilitates buffer subtraction for SEC-SAXS, automated Guinier assessment, molecular weight estimation, and Pair-Distance Distribution $P(r)$ calculations, bridging the gap between raw beamline data and biophysical interpretation.
 
-The suite is built with Python 3.10, PySide6, and Matplotlib, ensuring a modern, responsive interface for both Windows and macOS.
+The suite is built with Python 3.10, PySide6, and Matplotlib, ensuring a modern, responsive interface for both Windows MacOS and Linux
 
 🛠️ Included Tools
 
@@ -17,13 +20,7 @@ SAXSier v4.x includes four specialized modules accessible via a central launcher
 
 Designed for Size-Exclusion Chromatography coupled with SAXS.
 
-Unified Visualization: Automatically generates and displays the Form Factor, Guinier fit, Kratky plot, and Volume of Correlation analysis in a single window, enabling immediate data quality assessment at a glance.
-
-Automated Guinier Analysis: Scans thousands of frames to find linear regions.
-
-Quality Control: Plots $R_g$, $I(0)$, and Molecular Weight (MW) vs. Frame.
-
-Peak Analysis: Automatically detects peaks and valid ranges.
+Unified Visualization: with I(0)vsRg and I(0)vs MW but also for individual frame form Factor, Guinier fit, Kratky plot, and Volume of Correlation analysis in a single window, enabling immediate data quality assessment at a glance.
 
 2. Sexier (v7.x) - Detailed Structural Analysis
 
@@ -31,17 +28,17 @@ A comprehensive tool for analyzing single scattering profiles.
 
 Guinier & Kratky: Instant visualization of linearity and folding state.
 
-P(r) Distribution: Real-space analysis using BIFT (Bayesian Indirect Fourier Transform).
+P(r) Distribution: Real-space analysis using BIFT (Bayesian Indirect Fourier Transform) for $Dmax$.
 
 Molecular Weight: Estimates MW using the Volume of Correlation ($V_c$) and Porod Invariant.
 
 3. SAXSting (v3.x) - Comparison & Averaging
 
-Facilitates the visualization of all key parameters ($R_g$, MW, Kratky) to judge data quality in a single glance.
-
 Curve Superimposition: Compare multiple datasets visually.
 
 Normalization: View raw or normalized data ($I/I_0$).
+
+it also facilitates the visualization of all key parameters ($R_g$, MW, Kratky) to judge the differences between several scattering curves in a single glance.
 
 Averaging: Statistical averaging of selected curves with error propagation.
 
@@ -75,7 +72,7 @@ conda activate saxsier_env
 
 Run the launcher:
 
-python SAXSier-v4.py
+python SAXSier-v4.x.py
 
 
 🧪 Methodology & References
@@ -102,12 +99,12 @@ Hopkins, J. B.  (2024). BioXTAS RAW 2: new developments for a free open-source p
 
 Special Thanks: 
 
-Acknowledgment to Jesse B. Hopkins with Raw, for the incredible work with raw that helps a lot the small angle communauty  (clearly I had  no idea how to code that).
-The implementation of BIFT within the Sexier module allows for the objective determination of the maximum dimension ($D_{max}$) and the smoothing parameter ($\alpha$) without manual intervention. This robust mathematical framework is essential for generating reliable Pair-Distance Distribution functions ($P(r)$) from noisy experimental data.
+Acknowledgment to Jesse B. Hopkins with Raw, for its incredible work with raw that helps a lot the small angle communauty by making everything available.
+(clearly I had  no idea how to code bift).
 
 📄 License (because they ask fo one)
 
-Basically be aware it has been code by a stupid biochemist for this matter me...
+Basically be aware it has been coded by a stupid biochemist for this matter me...
 
 SAXSier is distributed under the MIT License.
 
