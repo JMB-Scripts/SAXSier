@@ -10,23 +10,23 @@ For documentation proposed all plots are automatically save as image and txt fil
 
 Stand alone version will be avalaible soon for Windows MacOs and Linux.
 
-📖 Overview
+📖 **Overview**
 
 SAXSier is a software toolkit designed to streamline the Small-Angle X-ray Scattering (SAXS) analysis pipeline. It facilitates buffer subtraction for SEC-SAXS, automated Guinier assessment, molecular weight estimation, and Pair-Distance Distribution $P(r)$ calculations, bridging the gap between raw beamline data and biophysical interpretation.
 
 The suite is built with Python 3.10, PySide6, and Matplotlib, ensuring a modern, responsive interface for both Windows MacOS and Linux
 
-🛠️ Included Tools
+🛠️ **Included Tools**
 
 SAXSier v4.x includes four specialized modules accessible via a central launcher:
 
-1. Ragtime (v5.x) - SEC-SAXS Analysis
+**1. Ragtime (v5.x) - SEC-SAXS Analysis**
 
 Designed for Size-Exclusion Chromatography coupled with SAXS.
 
 Unified Visualization: with I(0)vsRg and I(0)vs MW but also for individual frame form Factor, Guinier fit, Kratky plot, and Volume of Correlation analysis in a single window, enabling immediate data quality assessment at a glance.
 
-2. Sexier (v7.x) - Detailed Structural Analysis
+**2. Sexier (v7.x) - Detailed Structural Analysis**
 
 A comprehensive tool for analyzing single scattering profiles.
 
@@ -36,7 +36,7 @@ P(r) Distribution: Real-space analysis using BIFT (Bayesian Indirect Fourier Tra
 
 Molecular Weight: Estimates MW using the Volume of Correlation ($V_c$) and Porod Invariant.
 
-3. SAXSting (v3.x) - Comparison & Averaging
+**3. SAXSting (v3.x) - Comparison & Averaging**
 
 Curve Superimposition: Compare multiple datasets visually.
 
@@ -46,7 +46,7 @@ it also facilitates the visualization of all key parameters ($R_g$, MW, Kratky) 
 
 Averaging: Statistical averaging of selected curves with error propagation.
 
-4. SubMe (v3.x) - Buffer Subtraction
+**4. SubMe (v3.x) - Buffer Subtraction**
 
 Baseline Correction: Advanced subtraction using linear baselines (drift correction).
 
@@ -54,33 +54,31 @@ Averaging: Standard average buffer subtraction.
 
 Visualization: Real-time preview of the subtracted signal.
 
-⚙️ Installation
-
-Prerequisites
-
-Miniforge
-
-Setup
+⚙️ **Installation**
 
 Clone or download this repository.
 
 Create the environment using the provided environment.yml file:
 
+```bash
 conda env create -f environment.yml
-
+```
 
 Activate the environment:
 
+```bash
 conda activate saxsier_env
+```
 
 Put all scripts in the same folder then run 
 
 Run the launcher:
 
+```bash
 python SAXSier-v4.x.py
+```
 
-
-🧪 Methodology & References
+🧪 **Methodology & References**
 
 If you use SAXSier in your research, please cite the original works used within the software:
 
@@ -102,12 +100,12 @@ Glatter, O. (1977). A new method for the evaluation of small-angle scattering da
 
 Hopkins, J. B.  (2024). BioXTAS RAW 2: new developments for a free open-source program for small-angle scattering data reduction and analysis. . Journal of Applied Crystallography (2024), 57, 194-208.
 
-Special Thanks: 
+**Special Thanks**: 
 
-Acknowledgment to Jesse B. Hopkins with Raw, for its incredible work helps me a lot by making everything available.
-(for instence,  clearly I had  no idea how to code bift).
+Acknowledgment to Jesse B. Hopkins with Raw, by making everything available it helps me a lot .
+(for instence, clearly, I had  no idea how to code bift).
 
-📄 License (because github ask for one)
+📄 **License*** (because github ask for one)
 
-Basically be aware it has been coded by a stupid biochemist for this matter me...
-And do whatever you want to improve it 
+Basically be aware it has been coded by a stupid biochemist (for this matter me), so might be some problem...
+And do whatever you want to improve it. 
