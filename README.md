@@ -10,6 +10,9 @@ For documentation proposed all plots are automatically save as image and txt fil
 
 Stand alone version will be avalaible soon for Windows MacOs and Linux.
 
+
+[A small **Wiki** is here](https://github.com/JMB-Scripts/SAXSier/wiki)
+
 📖 **Overview**
 
 SAXSier is a software toolkit designed to streamline the Small-Angle X-ray Scattering (SAXS) analysis pipeline. It facilitates buffer subtraction for SEC-SAXS, automated Guinier assessment, molecular weight estimation, and Pair-Distance Distribution $P(r)$ calculations, bridging the gap between raw beamline data and biophysical interpretation.
