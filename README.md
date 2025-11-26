@@ -1,10 +1,14 @@
 ## SAXSier Suite
 
+**To view everything at a glance**
+
 An integrated, user-friendly suite forreduction, analysis, and visualization of SAXS and SEC-SAXS data.
 
 The idea is to get a maximum of information through various plots (Guinier, Nomalized Kratky, Volume of Corelation) at a glance.
 
 For documentation proposed all plots are automatically save as image and txt files in dedicated folder. This (at least for me) helps to keep an insightful trace of the analysis.
+
+Stand alone version will be avalaible soon for Windows MacOs and Linux.
 
 📖 Overview
 
@@ -69,6 +73,7 @@ Activate the environment:
 
 conda activate saxsier_env
 
+Put all scripts in the same folder then run 
 
 Run the launcher:
 
@@ -99,13 +104,10 @@ Hopkins, J. B.  (2024). BioXTAS RAW 2: new developments for a free open-source p
 
 Special Thanks: 
 
-Acknowledgment to Jesse B. Hopkins with Raw, for its incredible work with raw that helps a lot the small angle communauty by making everything available.
-(clearly I had  no idea how to code bift).
+Acknowledgment to Jesse B. Hopkins with Raw, for its incredible work helps me a lot by making everything available.
+(for instence,  clearly I had  no idea how to code bift).
 
-📄 License (because they ask fo one)
+📄 License (because github ask for one)
 
 Basically be aware it has been coded by a stupid biochemist for this matter me...
-
-SAXSier is distributed under the MIT License.
-
-
+And do whatever you want to improve it 
