@@ -1,0 +1,21 @@
+# conda env create -f environment.yml
+# conda activate saxsier_env
+name: saxsier_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Core Python (3.10 is currently the sweet spot for Numba/PySide6 stability)
+  - python=3.10
+  
+  # GUI Framework
+  - pyside6
+  
+  # Scientific Stack
+  - numpy
+  - scipy
+  - matplotlib
+  - numba
+  
+  # Build Tool
+  - pyinstaller
