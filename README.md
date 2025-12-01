@@ -80,6 +80,26 @@ Run the launcher:
 ```bash
 python SAXSier-v4.x.py
 ```
+Standalone coming soon 
+
+Macapp stand alone version can be downloaded here :
+
+If the app doesn't start go to 
+	1.	Open System Settings (or System Preferences on older macOS versions).
+ 
+	2.	Go to Privacy & Security.
+ 
+	3.	Scroll down to the Security section.
+ 
+	4.	If macOS has blocked the app, you’ll see a message saying it was prevented from opening.
+ 
+	5.	Click “Open Anyway” to allow the app to run.
+ 
+ Windows stand alone can be found:
+ 
+ 
+ Linux  stand alone can be found here (coming soon):
+
 
 🧪 **Methodology & References**
 
