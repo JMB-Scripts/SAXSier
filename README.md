@@ -2,13 +2,13 @@
 
 **To view everything at a glance**
 
-An integrated, user-friendly suite forreduction, analysis, and visualization of SAXS and SEC-SAXS data.
+An integrated, user-friendly suite for reduction, analysis, and visualization of SAXS and SEC-SAXS data.
 
 The idea is to get a maximum of information through various plots (Guinier, Nomalized Kratky, Volume of Corelation) at a glance.
 
-For documentation proposed all plots are automatically save as image and txt files in dedicated folder. This (at least for me) helps to keep an insightful trace of the analysis.
+All plots are automatically save as image and txt files in dedicated folder. This (at least for me) helps to keep an insightful trace of the analysis.
 
-Stand alone version will be avalaible soon for Windows MacOs and Linux.
+Standalone version are available below
 
 
 [A small **Wiki** is here](https://github.com/JMB-Scripts/SAXSier/wiki)
@@ -29,11 +29,14 @@ Designed for Size-Exclusion Chromatography coupled with SAXS.
 
 Unified Visualization: with I(0)vsRg and I(0)vs MW but also for individual frame form Factor, Guinier fit, Kratky plot, and Volume of Correlation analysis in a single window, enabling immediate data quality assessment at a glance.
 
+It allows you to visualize frame by frame the Saxs curve, Guinier (RG, I(0)) , Normalized Kratky plot, Volume of corelation (MW), in order to peak the best region to average and keep for further analysis.
+
+
 **2. Sexier (v7.x) - Detailed Structural Analysis**
 
 A comprehensive tool for analyzing single scattering profiles.
 
-Guinier & Kratky: Instant visualization of linearity and folding state.
+Guinier & Kratky: Instant visualization of linearity and folding state, (RG, I(0)).
 
 P(r) Distribution: Real-space analysis using BIFT (Bayesian Indirect Fourier Transform) for $Dmax$.
 
@@ -80,25 +83,25 @@ Run the launcher:
 ```bash
 python SAXSier-v4.x.py
 ```
-Standalone coming soon 
+## 📥 Download
 
-Macapp stand alone version can be downloaded here :
+**Mac** standalone version can be downloaded  :
+
+[here](https://cloud.univ-grenoble-alpes.fr/s/EXjXBqtzQf3MAsA)
 
 If the app doesn't start go to 
 	1.	Open System Settings (or System Preferences on older macOS versions).
+ 	2.	Go to Privacy & Security.
+ 	3.	Scroll down to the Security section.
+ 	4.	If macOS has blocked the app, you’ll see a message saying it was prevented from opening (I'm not a officla develloper).
+ 	5.	Click “Open Anyway” to allow the app to run.
  
-	2.	Go to Privacy & Security.
+ **Windows** standalone can be found:
  
-	3.	Scroll down to the Security section.
+ [here](https://cloud.univ-grenoble-alpes.fr/s/Cq6eRomfxwRLSF4)
  
-	4.	If macOS has blocked the app, you’ll see a message saying it was prevented from opening.
- 
-	5.	Click “Open Anyway” to allow the app to run.
- 
- Windows stand alone can be found:
- 
- 
- Linux  stand alone can be found here (coming soon):
+ **Linux**  standalone can be found
+ (coming soon)
 
 
 🧪 **Methodology & References**
