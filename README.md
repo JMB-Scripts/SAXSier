@@ -15,6 +15,9 @@ Standalone version are available below
 
 📖 **Overview**
 
+<img width="612" height="740" alt="image" src="https://github.com/user-attachments/assets/8f1a1128-f3a5-4509-ac89-41ee9fb9d2e3" />
+
+
 SAXSier is a software toolkit designed to streamline the Small-Angle X-ray Scattering (SAXS) analysis pipeline. It facilitates buffer subtraction for SEC-SAXS, automated Guinier assessment, molecular weight estimation, and Pair-Distance Distribution $P(r)$ calculations, bridging the gap between raw beamline data and biophysical interpretation.
 
 The suite is built with Python 3.10, PySide6, and Matplotlib, ensuring a modern, responsive interface for both Windows MacOS and Linux
