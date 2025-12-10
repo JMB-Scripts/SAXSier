@@ -136,5 +136,5 @@ Acknowledgment to Jesse B. Hopkins with Raw, by making everything available it h
 
 📄 **License*** (because github ask for one)
 
-Basically be aware it has been coded by a stupid biochemist (for this matter me), so might be some problem...
+Basically be aware it has been coded by a stupid biochemist (for this matter me), so might be some problems...
 And do whatever you want to improve it. 
